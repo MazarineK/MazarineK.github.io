@@ -1,0 +1,31 @@
+
+html{
+    background-image:url(https://www.pexels.com/photo/1024960/download/);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+label {
+    color:rgb(180, 17, 17);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+legend{
+    color: rgb(224, 0, 19);
+    font-size: 26px;
+}
+p {
+    color: rgb(228, 21, 21);
+    font-size: 18px;
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+fieldset{
+    border: width 100px; 
+    padding-bottom: 40px;
+    margin-top: 10px;
+}
+input{
+    width: 200px;
+    border: 150px;
+}

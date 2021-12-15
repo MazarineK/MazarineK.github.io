@@ -1,0 +1,216 @@
+.maza{
+    padding-left: 700px;
+      
+    margin-left: 50px;
+     
+    margin-right: 50px;
+    
+    margin-top: 50px;
+    
+ }
+ .maza img {
+    border-radius: 50%;
+    width: 170px;
+    height: 166px;
+ }
+ .forma{
+ 
+     display: flex;
+     
+     flex-flow: row wrap;
+     
+     border-bottom: 1px solid #bbb;
+     
+     padding-bottom: 100px;
+     
+     margin-bottom: 10px;
+     
+     margin-left: 50px;
+     
+     margin-right: 50px;
+     
+     margin-top: 20px;
+     
+     
+     }
+     
+     .forma-info{
+     
+     display: flex;
+     
+     flex-flow: column wrap;
+     
+     }
+     
+     .forma-logo{
+     
+     flex: 0 0 10%;
+     
+     max-width: 250px;
+     
+     height: 100px;
+     
+     margin-left: 20px;
+     
+     padding-top: 20px;
+     
+     }
+     
+     .forma-info{
+     
+     flex: 0 0 80%;
+     
+     margin-left: auto;
+     
+     }
+     
+     .forma img{
+     
+     width: 100%;
+     
+     }
+     
+     .forma h3{
+     
+     font-size: 1.2em;
+     
+     font-weight: 900;
+     
+     color: rgb(1, 37, 53);
+     
+     }
+     
+     .forma h4{
+     
+     font-size: 1em;
+     
+     font-weight: normal;
+     
+     }
+
+    h2 {
+         text-align: center;
+ 
+         font-size: 50px;
+       
+         font-weight: 900;
+       
+         color: #080505;
+      
+       
+         padding-top: 10px;
+       
+         text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+     }
+ img {
+        width: 200px;
+     }
+ progress {
+     flood-color: aqua;
+     background-color: rgba(255, 255, 0, 0.863);
+ 
+ }
+ li{
+     text-decoration-color:rgba(63, 57, 57, 0.452);
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ html {
+     
+     background-image: url(Fond\ rose.jpeg);
+     
+     
+     
+ }
+ h3 {
+     color: rgb(3, 24, 34);
+ }
+ 
+ .liste { 
+     text-align: center;
+     font-style: italic;
+     list-style-type: none;
+ 
+ 
+ }
+ .informatique {
+
+ }
+ .menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+       /* Ajout de la couleur d'arrière-plan */
+}
+
+
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+}
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color:transparent;    /* Couleur d'arrière-plan */
+    color: rgb(172, 19, 19);                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;          /* Arrondis des bordures */
+        }
+
+.gallery {
+    display:flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    width: 80%;
+    max-width: 1300px;
+    margin: 70px auto 0px ;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 10px;
+    
+    
+}
+.image {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    flex-shrink: 0px;
+    overflow: hidden;
+   
+
+.image img {
+    width: 100%;
+    height: auto;
+    
+}
+}
+
+.image img:hover {
+    opacity: .5;
+    margin-left: -30px;
+}
+.link {
+    margin: 3rem;
+    margin-left: 50%;
+
+
+}
+
+.link .fab {
+    margin-right: 1.3rem;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.link .fab:hover {
+    color: yellow;
+}
+body {
+    background-color: rgb(236, 241, 255);
+   
+}

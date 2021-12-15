@@ -1,0 +1,110 @@
+.menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+       /* Ajout de la couleur d'arrière-plan */
+}
+
+
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+}
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color:transparent;    /* Couleur d'arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+   
+}
+
+body {
+    background-image:url(./Images/img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: chocolate;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 110px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+h1 span {
+    position: relative;
+}
+.container-button {
+    position: relative;
+    top:50px;
+
+}
+.bulle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo-medias {
+    width: 40px;
+    height: 40px;
+}
+
+button {
+background: transparent;
+font-size: 30px;
+outline: none;
+padding: 20px;
+width: 300px;
+color: floralwhite;
+border: 2px solid cornsilk;
+cursor: pointer;
+}
+button :nth-child(1) {
+    margin-right: 30px;
+
+}
+
+.l1 {
+    width: 250px;
+    height: 3%;
+    background: crimson;
+    border-radius: 5px;   /*arrondir les bordures*/
+
+}
+
+.l2 {
+    width: 150px;
+    height: 3%;
+    background: crimson;
+    border-radius: 5px;   /*arrondir les bordures*/
+    position: relative;
+    top: 20px;
+}
+
+.logo{
+    position: absolute;
+    right: 2.9%;
+    
+
+}
+figure {
+    margin: 0;
+    background-color: transparent;
+    background-position: unset;
+}
+
